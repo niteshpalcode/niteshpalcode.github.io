@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color: rgb(0, 162, 226);
+    --main-color: rgb(0, 2, 2);
 }
 
 /*  Back To top csss */
@@ -38,7 +38,7 @@
 /* teck stack project */
 #techstack{
 font-size: 22px;
-color: green;
+color: rgb(10, 182, 245);
 }
 
 #boxes{
@@ -48,7 +48,7 @@ color: green;
 
 #github{
     background-color: #0c1014;
-    color: white;
+    color: rgb(0, 0, 0);
  
    
 }
@@ -61,7 +61,7 @@ html{
 }
 
 body{
-    background: #D6EAF8;
+    background: #07535d;
     padding-left: 30rem;
 }
 
@@ -74,7 +74,7 @@ section{
     margin-top: 4rem;
     font-size: 4rem;
     padding-bottom: 4rem;
-    color:white;
+    color:rgb(0, 0, 0);
     text-transform: uppercase;
     text-align: center;
     /* margin-bottom: 20px; */
@@ -86,7 +86,7 @@ section{
     transform: scale(1.2);
     transition: 1s ease;
     cursor: pointer;
-    color: #0c1014;
+    color: #fefefe;
 }
 
 .heading span{
@@ -98,7 +98,8 @@ section{
     cursor: pointer;
 }
 #detasec{
-    font-size: 35px;
+    font-size: 3rem;
+    color: #fff;
 }
 
 
@@ -127,10 +128,10 @@ section{
 
 
 #name{
-    color: rgb(0, 162, 226);
+    color: rgb(0, 0, 0);
 }
 #name:hover{
-   color:  rgb(48, 62, 80);
+   color:  rgb(251, 251, 251);
    
    -webkit-transform: scale(1.1);
    -ms-transform: scale(1.1);
@@ -142,7 +143,7 @@ section{
     color: rgb(13, 39, 49);
 }
 #pal:hover{
-    color: rgb(19, 18, 18);
+    color: rgb(255, 255, 255);
     
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -155,12 +156,15 @@ section{
     /* color: black; */
 
 }
-
+#logoimg{
+    width: 50%;
+    height: auto;
+}
 
 header{
     position: fixed;
     top:0; left:0; bottom:0;
-    background:rgb(55, 66, 50);
+    background:rgb(16, 20, 19);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -225,16 +229,14 @@ header .follow a:hover{
 
 
 #detadtls{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    box-shadow: 0 4px 25px rgba(232, 235, 237, 0.15);
     margin: auto;
     text-align: center;
     padding: 30px;
+    color: #fff;
 
 }
-#detadtls:hover{
-/* color: black; */
-cursor: pointer;
-}
+
 
 
 .cursor-1{
@@ -277,21 +279,30 @@ cursor: pointer;
 }
 
 .home .image{
-    flex:1 1 40rem;
+    /* flex:1 1 60rem; */
 }
 
 .home .image img{
-    width:100%;
+    width:90%;
+    border: 1px solid;
+    box-shadow: 10px 6px 50px rgba(251, 251, 251, 0.15);
+    /* padding-left: 5rem; */
+    border-radius: 3rem;
+    margin-top: 5rem;
 
 }
 
 .home .content{
     flex:1 1 40rem;
+   
+    
 }
 
 .home .content .hi{
     font-size: 3rem;
-    color:white
+    color:white;
+    
+   
 }
 .home .content .hi:hover{
     -webkit-transform: scale(1.1);
@@ -304,14 +315,16 @@ cursor: pointer;
     font-size: 4rem;
     color:rgb(9, 15, 17);
     text-transform: uppercase;
+   
 }
 
 .home .content h3 span{
     color:var(--main-color);
     text-transform: uppercase;
+    
 }
 #mrs:hover{
-    color: rgb(0, 6, 8);
+    color: rgb(244, 247, 248);
 }
 
 .home .content .info{
@@ -456,10 +469,10 @@ cursor: pointer;
         flex: 1 1 13rem;
         text-align: center;
         padding: 1rem;
-        box-shadow: rgba(103, 116, 131, 0.2) 0px 7px 29px 0px;
+        box-shadow: 0 4px 25px rgba(232, 235, 237, 0.15);
         /* background: rgb(39, 172, 202); */
         border-radius: 1.9rem;
-        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+        /* box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%); */
 }
 .service .box-container .box :hover{
     -webkit-transform: scale(1.15);
@@ -496,6 +509,7 @@ cursor: pointer;
     align-items: center;
     display: grid;
     text-align: center;
+    color: #fff;
 }
 
 #servicediv{
@@ -512,10 +526,10 @@ cursor: pointer;
   padding: 1.5rem 1rem;
   border-radius: 0.5rem;
   margin-bottom: var(--mb-4);
-  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 0 4px 25px rgba(232, 235, 237, 0.15);
   /* transition: 1s ease; */
   margin-bottom: 0rem;
-color: #323a41;
+/* color: #323a41; */
   
 }
 
@@ -583,9 +597,9 @@ color: #323a41;
     position: relative;
     overflow:hidden;
     padding: 3rem;
-    box-shadow: rgba(105, 113, 116, 0.2) 0px 7px 29px 0px;
+    box-shadow: 0 4px 25px rgba(232, 235, 237, 0.15);
     /* background:rgb(53, 133, 160); */
-    /* border-radius: 2rem; */
+    border-radius: 2rem;
     /* text-align: center; */
 }
 
@@ -615,12 +629,12 @@ color: #323a41;
 
 #prdiv:hover{
     font-size: 35px;
-    color:  green;
+    color:  rgb(255, 255, 255);
 }
 
 #prdiv1:hover{
     font-size: 35px;
-    color: green;
+    color:rgb(255, 255, 255);
 }
 
 .portfolio .box-container .box h3{
@@ -629,11 +643,13 @@ color: #323a41;
     font-size: 2.5rem;
     padding-left: 1rem;
     padding-bottom: 1rem;
-    color:rgb(40, 39, 39);
+    color:rgb(255, 255, 255);
     text-transform: uppercase;
+    text-align: center;
     
 }
 #h1project{
+    color: #fff;
     padding-top: 1rem;
     font-size: 2rem;
     font-weight:normal;
@@ -664,7 +680,12 @@ color: #323a41;
     background:var(--main-color);
     color:#fff;
 }
-
+#contact p{
+    color: white;
+}
+#contact p:hover{
+    color: #07535d;
+}
 #contactsec{
     margin-top: 4rem;
     padding-top: 4rem;
@@ -681,11 +702,11 @@ color: #323a41;
 }
 
 .contact .icons-container .icons{
-    flex:1 1 25rem;
+    flex:1 1 10rem;
     text-align: center;
     padding:2rem;
-    background:#fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    background:rgb(0, 0, 0);
+    box-shadow: 0 .5rem 1rem rgba(253, 253, 253, 0.1);
     border-radius: .5rem;
 }
 
@@ -700,11 +721,12 @@ color: #323a41;
 }
 
 .contact .icons-container .icons h3{
-    color:#111;
+    color:rgb(255, 255, 255);
     font-size: 2rem;
     padding:.5rem 0;
     padding-top: 1rem;
 }
+
 
 .contact .icons-container .icons p{
     color:#666;
@@ -754,7 +776,7 @@ color: #323a41;
     text-align: center;
     flex-direction: column;
     /* background: #fff; */
-    box-shadow:  0 30px 60px rgba(0,0,0,.2);
+    box-shadow: 0 4px 25px rgba(232, 235, 237, 0.15);
     background-color: white;
 }
  .percent{
@@ -909,6 +931,10 @@ color: #323a41;
      
     
     }
+    #logoimg{
+        width: 30%;
+        height: auto;
+    }
     .percent svg circle{
         width: 150px;
         height: 150px;
@@ -986,7 +1012,7 @@ color: #323a41;
 }
 
 #mr:hover{
-color: rgb(0, 162, 226);
+color: rgb(0, 0, 0);
 cursor: pointer;
 /* letter-spacing: .2rem; */
 -webkit-transform: scale(1.1);
@@ -995,7 +1021,9 @@ cursor: pointer;
     transition: 1s ease;
     cursor: pointer;
 }
-
-#rana:hover{
-    color: black;
+#nitesh{
+    text-transform: uppercase;
+}
+#nitesh:hover{
+    color: rgb(255, 255, 255);
 }
