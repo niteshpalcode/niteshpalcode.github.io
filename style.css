@@ -208,7 +208,7 @@ header .navbar a:hover{
     font-size: 2rem;
     box-shadow: 0 4px 25px rgba(232, 235, 237, 0.15);  
     border-radius: 1rem;
-    border-color:black; 
+    /* border-color:black;  */
 }
 
 header .follow a{
