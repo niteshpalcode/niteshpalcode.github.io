@@ -193,16 +193,22 @@ header .logo span{
 
 
 header .navbar a{
-    display: block;
+     display: block;
     font-size: 2rem;
     color:#fff;
     margin:2rem 0;
+    padding: 5px;
+    
+
 }
 
 header .navbar a:hover{
     color: rgb(0, 162, 226);
     font-weight: bolder;
     font-size: 2rem;
+    box-shadow: 0 4px 25px rgba(232, 235, 237, 0.15);  
+    border-radius: 1rem;
+    border-color:black; 
 }
 
 header .follow a{
