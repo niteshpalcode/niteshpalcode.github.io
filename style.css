@@ -209,7 +209,7 @@ header .navbar a{
   }
 
 header .navbar a:hover{
-    color: rgb(0, 162, 226);
+    color: rgb(3, 98, 194);
     font-weight: bolder;
     font-size: 2rem;
     box-shadow: 0 4px 25px rgba(153, 197, 226, 0.15);  
