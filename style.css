@@ -705,9 +705,12 @@ header .follow a:hover{
 }
 .contact .icons-container{
     display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
     gap:1.5rem;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding-bottom: 2rem;
+    border-radius: 2rem;
 }
 #nothing{
     border: 1px solid;
@@ -882,19 +885,20 @@ header .follow a:hover{
          display: grid;
          grid-template-columns: repeat(1,1fr);
          gap:3rem;
+         padding-bottom: 5rem;
     }
     .portfolio .box-container .box h3{
         position: absolute;
-        bottom:.25rem; left:1rem;
+         bottom:.25rem; left:1rem;
         font-size: 2.5rem;
-        padding-left: 10rem;
-        padding-bottom: 1rem;
-        color:rgb(176, 55, 55);
+        padding-left: 5rem;
+        /* padding-bottom: 1rem; */
+        color:rgb(0, 0, 0);
         text-transform: uppercase;  
     }   
     #techstack{
         font-size: 2rem;
-        color: rgb(0, 128, 45);
+        color: rgb(0, 0, 0);
         padding-left: 7rem;
         } 
     #github{
@@ -911,12 +915,19 @@ header .follow a:hover{
     #menu-bars{
         display: initial;
     }
-    #h1project{
+    #techstack{
         font-size: 2.5rem;
-        text-align: justify;
-        width: 80%;
+        color: rgb(0, 0, 0);
+        padding-left: 4.5rem;
+        margin-top: 2rem;
+        }
+    #h1project{
+        font-size: 2rem;
+        /* text-align: justify; */
+        width: 90%;
         margin: auto;
-    }
+        /* margin-bottom: 2rem; */
+    } 
 
     header{
         left:-120%;
@@ -966,29 +977,60 @@ header .follow a:hover{
        
     
     }
+    #prdiv{
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        margin-left: 20px;
+        /* border: 1px solid; */
+    
+    }
+    #prdiv1{
+        font-size: 15px;
+        color: black;
+    }
+    .nameClass{
+        /* border: 5px solid; */
+        text-align: center;
+    }
+    .portfolio .box-container .box h3{
+        position: absolute;
+        bottom:.25rem; left:1rem;
+        font-size: 1.3rem;
+        padding-left: 4rem;
+        margin-bottom: 3rem;
+        color:rgb(2, 2, 2);
+        text-transform: uppercase;  
+    }   
  
     #menu-bars{
         display: initial;
        
     }
     #techstack{
-        font-size: 1.5rem;
-        margin-top: 10px; 
-        padding-top: 20px; 
-          
-    }
+        font-size: 1.2rem;
+        color: rgb(0, 0, 0);
+        padding-left: 2rem;
+        margin-top: 2rem;
+        }
     #h1project{
         font-size: 1.5rem;
-        text-align: justify;
-        width: 80%;
+        /* text-align: justify; */
+        width: 90%;
+        
         margin: auto;
+        margin-bottom: 2rem;
     }
     .portfolio .box-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        font-size: 1rem;
+        /* font-size: 1rem;  */
      
     }
+    /* .icons-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        border: 1px solid orange;
+    } */
     
    #stat{
     width: 100%;
