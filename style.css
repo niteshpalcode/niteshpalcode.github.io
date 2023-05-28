@@ -23,7 +23,7 @@
 
 /* teck stack project */
 #techstack{
-font-size: 22px;
+font-size: 1.5rem;
 color: rgb(10, 182, 245);
 }
 
@@ -48,8 +48,8 @@ html{
 
 
 body{
-background-image: url('vecteezy_dark-blue-and-black-banner-background_10536619.jpg');
-    /* background: #07535d; */
+/* background-image: url('vecteezy_dark-blue-and-black-banner-background_10536619.jpg'); */
+    background: #07535d;
     background-repeat: repeat;
     padding-left: 30rem;
 }
@@ -595,43 +595,39 @@ header .follow a:hover{
 }
 
 
-
-.portfolio .box-container{
-   display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap:5rem;
-    /* border: 1px solid; */
-    /* grid-template-rows: repeat(200px); */
-    padding: 20px ;
-
+.portfolio .box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   
-}
-
-.portfolio .box-container .box{
-    flex:1 1 30rem;
-    height:500px;
+  .portfolio .box-container .box {
+    height: 500px;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
     padding: 3rem;
     box-shadow: 0 4px 25px rgba(232, 235, 237, 0.15);
-    /* background:rgb(53, 133, 160); */
     border-radius: 2rem;
-    /* text-align: center; */
-}
-
-
-#heading_my2{
-    margin-top: 4rem;
-    padding-top: 4rem;
-}
-.portfolio .box-container .box img{
-    height:60%;
-    width:100%;
+  }
+  
+  .portfolio .box-container .box img {
+    height: 60%;
+    width: 100%;
     object-fit: cover;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     position: relative;
     z-index: 1;
-}
+  }
+  
+  #heading_my2 {
+    margin-top: 4rem;
+    padding-top: 4rem;
+  }
+  
+
 #prdiv{
     font-size: 25px;
     color: rgb(0, 0, 0);
