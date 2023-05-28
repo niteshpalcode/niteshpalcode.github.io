@@ -50,7 +50,7 @@ html{
 body{
 /* background-image: url('vecteezy_dark-blue-and-black-banner-background_10536619.jpg'); */
     background: #07535d;
-    background-repeat: repeat;
+    /* background-repeat: repeat; */
     padding-left: 30rem;
 }
 
